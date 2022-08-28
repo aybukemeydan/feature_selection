@@ -15,5 +15,16 @@ Solda sırasıyla feature seçmedeki adımlar bulunmakta.
 Sağdaki grafikte 2 ayrı modelin AUC değerleri gözükmekte turuncu kısımda yukardaki adımların hepsi uygulanmış gri kısımda da yukardaki 1.adımdan sonrası yapılmamış. Lift curve'e bakınca iki model arasındaki fark gözükmekte.
 
 
+### Önemli Bulduğum Diğer Yöntemler
+
+<br/>**📫 Linkler :** <br/>
+
+* [DS Tutorial](https://github.com/edyoda/data-science-complete-tutorial/blob/master/10.%20Feature%20Selection%20Techniques.ipynb)
+* [Drop Corr Features](https://github.com/feature-engine/feature-engine-examples/blob/main/selection/Drop-Correlated-Features.ipynb)
+* [Redundancy]((https://github.com/anujdutt9/Feature-Selection-for-Machine-Learning/blob/master/Filter%20Methods/Correlation.ipynb)
+* [ABESS -Fast Best-Subset Selection in Python and R](https://github.com/abess-team/abess)
+* [Featurewizz](https://github.com/AutoViML/featurewiz)
+
+
 
 
