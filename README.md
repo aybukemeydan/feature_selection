@@ -2,6 +2,6 @@
 
 ### İsmail Parsa'nıın Sunumundaki Notlar
 
-<img src="feature_selection.png" width="200px">
+<img src="feature_selection.png" width="1000px">
 
 
