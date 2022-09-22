@@ -1,4 +1,4 @@
-# feature_selection
+# Feature Selection
 
 ### İsmail Parsa'nıın Sunumundaki Notlar
 
@@ -18,8 +18,9 @@ Solda sırasıyla feature seçmedeki adımlar bulunmakta.
 Sağdaki grafikte 2 ayrı modelin AUC değerleri gözükmekte turuncu kısımda yukardaki adımların hepsi uygulanmış gri kısımda da yukardaki 1.adımdan sonrası yapılmamış. Lift curve'e bakınca iki model arasındaki fark gözükmekte.
 
 
-### Önemli Bulduğum Diğer Yöntemler
+### Feature Selectionda Kullandığım Diğer Yöntemler
 
+Özellikle AutoViz'i çok severek kullanıyorum,özellikle çok kolonlu (+700) bir data ile çalışıyorsanız yukarıdaki ilk 3 adımı sadece bu yolla kullanabilirsiniz. Yine featurewizz ile de pandas_profilling tadında grafikleri görebilir ve inceleyebilirsiniz. En sonunda heatmap çizdirmesiyle de tadından yenmiyor.
 <br/>**📫 Linkler :** <br/>
 
 * [DS Tutorial](https://github.com/edyoda/data-science-complete-tutorial/blob/master/10.%20Feature%20Selection%20Techniques.ipynb)
