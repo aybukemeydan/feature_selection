@@ -33,4 +33,4 @@ Sağdaki grafikte 2 ayrı modelin AUC değerleri gözükmekte turuncu kısımda 
 * [AutoViz - Demo](https://github.com/AutoViML/AutoViz/blob/master/Examples/AutoViz_Demo.ipynb)
 
 
-
+_Burası zamanla yeni keşfettiğim yöntemlerle birlikte güncellenmeye devam edecektir._
