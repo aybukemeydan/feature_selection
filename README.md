@@ -1,6 +1,9 @@
 # Feature Selection
 
-### İsmail Parsa'nıın Sunumundaki Notlar
+Elinizde her zaman az kolonlu ve heatmap üzerinden kolayca inceleyebildiğiniz bir data olmuyor. Kendiniz 1000 kolonlu bir havuz içerisinde bulabiliyorsunuz. Bunların hepsini de modele koymak size overfittingden başka bir sonuç getirmeyecektir de. O yüzden bu adım çok kritik.
+
+### 1.) İsmail Parsa'nın Sunumundan Aldığım Notlar
+
 
 <img src="feature_selection.png" width="1000px">
 
@@ -12,13 +15,12 @@ Solda sırasıyla feature seçmedeki adımlar bulunmakta.
 
 3.) Bootsrap Regression : Regresyon analizi kullanılarak resampling tekniği dediğimiz yani veriden 5 kere %40 gibi bir oranda (farklı oranlarda olabilir.) sample çekip 5 kere regresyon yapıp 5 i içinde 3 ünde önemli olmuş featurelarla devam etme.
 
-4.) En sonda da modele sokup (3 defa) feature importance ı en yüksek ortak değişkenlerle devam ederek final modeli kurmak.
-
+4.) En sonda da modele sokup (3 defa) feature importance'ı en yüksek ortak değişkenlerle devam ederek final modeli kurmak.
 
 Sağdaki grafikte 2 ayrı modelin AUC değerleri gözükmekte turuncu kısımda yukardaki adımların hepsi uygulanmış gri kısımda da yukardaki 1.adımdan sonrası yapılmamış. Lift curve'e bakınca iki model arasındaki fark gözükmekte.
 
 
-### Feature Selectionda Kullandığım Diğer Yöntemler
+### 2.)  Feature Selectionda Kullandığım Diğer Yöntemler
 
 Özellikle AutoViz'i çok severek kullanıyorum,özellikle çok kolonlu (+700) bir data ile çalışıyorsanız yukarıdaki ilk 3 adımı sadece bu yolla kullanabilirsiniz. Yine featurewizz ile de pandas_profilling tadında grafikleri görebilir ve inceleyebilirsiniz. En sonunda heatmap çizdirmesiyle de tadından yenmiyor.
 <br/>**📫 Linkler :** <br/>
